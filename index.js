@@ -31,5 +31,6 @@ mongoose.connect(DBdata, { useNewUrlParser: true, useUnifiedTopology: true }).th
     app.listen(PORT, function () {
         console.log('Express app running on port ' + PORT)
         console.log(`http://127.0.0.1:${PORT}`)
+        console.log(`POSTMAN API'S Documentation ON: https://documenter.getpostman.com/view/26567037/2s93RZMUyU`)
     });
 })
